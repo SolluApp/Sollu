@@ -58,7 +58,7 @@ export default class LoginComponent extends React.Component {
                     />
                 </View>
                 <View>
-                    <TouchableOpacity testID={'login'}
+                    <TouchableOpacity testId={'login'}
                         style={[styles.button, { backgroundColor: this.state.phoneNo ? '#cc504e' : '#f49f8e' },
                         { borderColor: this.state.error ? 'red' : '#000' }]}
                                       activeOpacity = { .5 }
