@@ -64,3 +64,4 @@ buck-out/
 package-lock.json
 /node_modules/
 yarn.lock
+src/firebase/db_config.js
