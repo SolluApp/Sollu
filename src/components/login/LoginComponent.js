@@ -48,6 +48,7 @@ export default class LoginComponent extends React.Component {
                     <Image source={require('../../icons/phone_icon.jpg')}
                            style={styles.imageStyle}/>
                     <TextInput
+                        testID={"phoneNumber"}
                         style={styles.TextContainer}
                         placeholder="Enter phone number"
                         keyboardType={'numeric'}
@@ -57,7 +58,8 @@ export default class LoginComponent extends React.Component {
                     />
                 </View>
                 <View>
-                    <TouchableOpacity style={[styles.button, { backgroundColor: this.state.phoneNo ? '#cc504e' : '#f49f8e' },
+                    <TouchableOpacity testID={'login'}
+                        style={[styles.button, { backgroundColor: this.state.phoneNo ? '#cc504e' : '#f49f8e' },
                         { borderColor: this.state.error ? 'red' : '#000' }]}
                                       activeOpacity = { .5 }
                                       disabled={!this.state.phoneNo}
