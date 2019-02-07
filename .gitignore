@@ -56,7 +56,6 @@ buck-out/
 *.jsbundle
 
 
-.babelrc
 .buckconfig
 .flowconfig
 .gitattributes
