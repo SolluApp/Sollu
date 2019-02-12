@@ -26,10 +26,6 @@
     "react-test-renderer": "^16.6.3"
   },
   "jest": {
-    "preset": [
-      "react-native",
-      "@babel/preset-env",
-      "module:metro-react-native-babel-preset"
-    ]
+    "preset": "react-native"
   }
 }
